@@ -1,0 +1,11 @@
+{
+  "name": "android_hello_world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:RobTS/android_hello_world.git",
+  "author": "rts <rts@arcor.de>",
+  "license": "MIT",
+  "dependencies": {
+    "react-native": "0.55.4"
+  }
+}

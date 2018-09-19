@@ -1,8 +1,10 @@
 package codepath.demos.helloworlddemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
 
 public class HelloWorldActivity extends Activity {
 
@@ -19,4 +21,8 @@ public class HelloWorldActivity extends Activity {
 		return true;
 	}
 
+	public void onClickRnBtn(View v) {
+		Intent intent = new Intent(this, MyReactActivity.class);
+		startActivity(intent);
+	}
 }

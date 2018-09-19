@@ -57,3 +57,9 @@ local.properties
 
 # PDT-specific
 .buildpath
+
+#Build folder
+app/build/
+
+#ReactNative-specific
+node_modules/
